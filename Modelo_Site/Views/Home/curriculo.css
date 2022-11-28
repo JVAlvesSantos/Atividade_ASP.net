@@ -1,0 +1,75 @@
+body{background-color: black;}
+.cabecalho{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    margin: 10px;
+    text-align: center;
+}
+
+.lado{
+    text-align: inherit;
+}
+.info{
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    text-align: center;
+
+}
+
+.corpo{
+    color: black;
+    text-align: center;
+    border: 2px solid black;
+    background-color: white;
+    text-size-adjust: 160%;
+
+}
+
+.h2{
+    text-size-adjust: 160%;
+}
+
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .texto{
+      text-align: center;
+      background-color: white;
+  }
+
+.w3-container{
+    text-align: center;
+    border: 2px solid rgb (7, 7, 7) hsl(hue, saturation, lightness);
+    padding: 20px;
+    
+}
+
+.container{
+   padding: 20px;
+    background-color: lightblue;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.container_img{
+    display:inline-block
+}
+
+.apresentacao{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.apresentacao div{
+    text-align: center;
+    width: 100%;
+}
+
+.img{
+    width: 300px;
+}
